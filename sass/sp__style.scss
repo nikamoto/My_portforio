@@ -9,7 +9,6 @@
     margin-left: 0;
   }
   #fullpage .about__container,
-  #fullpage .skill__container,
   #fullpage .work__container {
     display: block;
   }
@@ -57,15 +56,15 @@
       width: 5.3rem;
       height: 2.6rem;
       position: absolute;
-      top: 15%;
+      top: 5%;
       right: 27%;
     }
     .cloud2-wrap {
-      width: 22.2rem;
+      width: 20.2rem;
       height: 7.7rem;
       position: absolute;
-      top: 14.5%;
-      right: -5%;
+      top: 10%;
+      right: -10%;
     }
     .cloud3-wrap {
       width: 13.8rem;
@@ -87,51 +86,55 @@
 
   .skill {
     .pc-img-wrap {
-      width: 14.8rem;
-      height: 14.5rem;
+      width: 30vw;
       top: 22%;
       left: 18%;
     }
     .sp-img-wrap {
-      width: 6.8rem;
-      height: 8.3rem;
+      width: 14.1vw;
       top: 28.5%;
-      right: 30%;
+      right: 24%;
     }
     .skill__container {
       margin: 18.5% 4.1% 0 12.5%;
+      width: 83%;
+      display: block;
+    }
+    .title-wrap {
+      width: 21%;
     }
     .skill__wrap {
       width: 100%;
+      position: absolute;
+      top: 40%;
       margin-top: 15.3rem;
-      margin-bottom: 0;
+      margin: 0;
       padding-left: 0;
     }
     .skill__html, .skill__css{
-      width: 6.8rem;
-      height: 6.8rem;
-      line-height: 6.8rem;
+      width: 6rem;
+      height: 6rem;
+      line-height: 6rem;
     }
     .skill__js, .skill__gitgub {
-      width: 5.6rem;
-      height: 5.6rem;
-      line-height: 5.6rem;
+      width: 5rem;
+      height: 5rem;
+      line-height: 5rem;
     }
     .skill__php,.skill__wordpress, .skill__mysql {
-      width: 4.3rem;
-      height: 4.3rem;
-      line-height: 4.3rem;
-      font-size: 1.2rem;
+      width: 4rem;
+      height: 4rem;
+      line-height: 4rem;
     }
     .skill--common {
       font-size: 0rem;
-      margin-right: 10px;
+      margin-right: 2px;
     }
     .skill__list {
       padding-top: 0;
     }
     .skill__content, span {
-      font-size: 1.4rem;
+      font-size: 1.1rem;
     }
     .skill-cloud-wrap1 {
       width: 15.6rem;
@@ -144,14 +147,14 @@
       width: 7.1rem;
       height: 3.1em;
       position: absolute;
-      top: 23%;
-      left: 22%;
+      top: 6%;
+      left: 30%;
     }
     .skill-cloud-wrap3 {
       width: 18.7rem;
       height: 6.5em;
       position: absolute;
-      top: 1%;
+      top: 15%;
       right: 2%;
     }
     .skill-cloud-wrap4 {
@@ -172,8 +175,8 @@
       width: 3.8rem;
       height: 2.5em;
       position: absolute;
-      left: 17%;
-      bottom: 22%;
+      left: 25%;
+      bottom: 8%;
     }
     .skill-cloud-wrap7 {
       width: 3.5rem;
