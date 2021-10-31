@@ -14,18 +14,6 @@
     display: block;
   }
   .fv {
-    &::after {
-      content: "";
-      background-image: url(../images/circle_sp.svg);
-      background-repeat: no-repeat;
-      background-size: 100%;
-      position: absolute;
-      bottom: -5%;
-      left: -5%;
-      width: 111%;
-      height: 7rem;
-      z-index: 0;
-    }
     .fv__title {
       font-size: 3rem;
     }
@@ -214,5 +202,13 @@
   }
   #fp-nav ul li {
     margin-bottom: 7px;
+    height: 9px;
   }
+  #fp-nav ul li a {
+    width: 9px;
+  }
+  #fp-nav ul li .active {
+    width: 18px;
+  }
+
 }
